@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="en-US"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#4d4d4d">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<title>Responsive Animated Image Grid HTML5 CSS3 » XO PIXEL</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v7.9.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="This week I’ll be showing you how to create a Responsive Animated Image Grid. This image grid has really nice subtle animation effect.">
+<link rel="canonical" href="https://xopixel.com/responsive-animated-image-grid-html5-css3/">
+<link rel="publisher" href="https://plus.google.com/+Xopixell/about">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Responsive Animated Image Grid HTML5 CSS3 » XO PIXEL">
+<meta property="og:description" content="This week I’ll be showing you how to create a Responsive Animated Image Grid. This image grid has really nice subtle animation effect.">
+<meta property="og:url" content="https://xopixel.com/responsive-animated-image-grid-html5-css3/">
+<meta property="og:site_name" content="XO PIXEL">
+<meta property="article:publisher" content="https://www.facebook.com/xopixell">
+<meta property="article:author" content="xopixell">
+<meta property="article:tag" content="code">
+<meta property="article:tag" content="css">
+<meta property="article:tag" content="css3">
+<meta property="article:tag" content="html">
+<meta property="article:tag" content="html5">
+<meta property="article:tag" content="tutorial">
+<meta property="article:tag" content="youtube">
+<meta property="article:section" content="Code">
+<meta property="article:published_time" content="2017-01-31T10:30:55-04:00">
+<meta property="article:modified_time" content="2018-06-11T13:54:11-04:00">
+<meta property="og:updated_time" content="2018-06-11T13:54:11-04:00">
+<meta property="og:image" content="https://d2qzqy8mritfzj.cloudfront.net/wp-content/uploads/2017/01/ResponsiveAnimatedImageGrid_.jpg">
+<meta property="og:image:secure_url" content="https://d2qzqy8mritfzj.cloudfront.net/wp-content/uploads/2017/01/ResponsiveAnimatedImageGrid_.jpg">
+<meta property="og:image:width" content="736">
+<meta property="og:image:height" content="1019">
+<meta property="og:image:alt" content="Responsive Animated Image Grid HTML5 CSS3 via xopixel.com">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="This week I’ll be showing you how to create a Responsive Animated Image Grid. This image grid has really nice subtle animation effect.">
+<meta name="twitter:title" content="Responsive Animated Image Grid HTML5 CSS3 » XO PIXEL">
+<meta name="twitter:site" content="@xopixell">
+<meta name="twitter:image" content="https://d2qzqy8mritfzj.cloudfront.net/wp-content/uploads/2017/01/ResponsiveAnimatedImageGrid_.jpg">
+<meta name="twitter:creator" content="@xopixell">
+<script async="" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/a"></script><script async="" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/get_counts.json"></script><script async="" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/get_counts_002.json"></script><script async="" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/analytics.js"></script><script async="" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/5b1ee87c1bfd1200116fdbaa.js"></script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/xopixel.com\/","sameAs":["https:\/\/www.facebook.com\/xopixell","https:\/\/www.instagram.com\/xopixell\/","https:\/\/www.linkedin.com\/company\/xo-pixel","https:\/\/plus.google.com\/+Xopixell\/about","https:\/\/www.youtube.com\/user\/xopixell","https:\/\/www.pinterest.com\/xopixel\/","https:\/\/twitter.com\/xopixell"],"@id":"https:\/\/xopixel.com\/#organization","name":"XO PIXEL","logo":"https:\/\/xopixel.com\/wp-content\/uploads\/2016\/01\/cropped-icon-512px.png"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="dns-prefetch" href="https://ajax.googleapis.com/">
+<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/">
+<link rel="dns-prefetch" href="https://platform-api.sharethis.com/">
+<link rel="dns-prefetch" href="https://use.typekit.net/">
+<link rel="dns-prefetch" href="https://use.fontawesome.com/">
+<link rel="dns-prefetch" href="https://s.w.org/">
+<link href="https://use.typekit.net/" crossorigin="" rel="preconnect">
+<link rel="alternate" type="application/rss+xml" title="XO PIXEL » Feed" href="https://xopixel.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="XO PIXEL » Comments Feed" href="https://xopixel.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="XO PIXEL » Responsive Animated Image Grid HTML5 CSS3 Comments Feed" href="https://xopixel.com/responsive-animated-image-grid-html5-css3/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/xopixel.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/wp-emoji-release.js" type="text/javascript" defer="defer"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="mp-theme-css" href="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/theme.css" type="text/css" media="all">
+<link rel="stylesheet" id="bbp-default-css" href="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/bbpress.css" type="text/css" media="screen">
+<link rel="stylesheet" id="contact-form-7-css" href="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="xopixel-style-css" href="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="xopixel-prism-css" href="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/prism.css" type="text/css" media="all">
+<link rel="stylesheet" id="xopixel-fonts-css" href="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/ldu5lur.css" type="text/css" media="all">
+<link rel="stylesheet" id="xopixel-fontawesome-css" href="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/fontawesome.css" type="text/css" media="all">
+<link rel="stylesheet" id="xopixel-fontawesome-solid-css" href="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/solid.css" type="text/css" media="all">
+<link rel="stylesheet" id="an_style-css" href="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/JuoaGPDRhTNR.css" type="text/css" media="all">
+<script type="text/javascript" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/jquery.js"></script>
+<script type="text/javascript" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/jquery-migrate.js"></script>
+<script type="text/javascript" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/jquery_002.js"></script>
+<script type="text/javascript" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/jquery_003.js"></script>
+<script type="text/javascript" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/sharethis.js"></script>
+<link rel="https://api.w.org/" href="https://xopixel.com/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://xopixel.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://xopixel.com/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.9.8">
+<link rel="shortlink" href="https://xopixel.com/?p=5825">
+<link rel="alternate" type="application/json+oembed" href="https://xopixel.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopixel.com%2Fresponsive-animated-image-grid-html5-css3%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://xopixel.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopixel.com%2Fresponsive-animated-image-grid-html5-css3%2F&amp;format=xml">
+		<style type="text/css">
+					.site-title,
+			.site-description {
+				position: absolute;
+				clip: rect(1px, 1px, 1px, 1px);
+			}
+				</style>
+		<link rel="icon" href="https://d2qzqy8mritfzj.cloudfront.net/wp-content/uploads/2018/04/cropped-Asset-9@1x-32x32.png" sizes="32x32">
+<link rel="icon" href="https://d2qzqy8mritfzj.cloudfront.net/wp-content/uploads/2018/04/cropped-Asset-9@1x-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon-precomposed" href="https://d2qzqy8mritfzj.cloudfront.net/wp-content/uploads/2018/04/cropped-Asset-9@1x-180x180.png">
+<meta name="msapplication-TileImage" content="https://d2qzqy8mritfzj.cloudfront.net/wp-content/uploads/2018/04/cropped-Asset-9@1x-270x270.png">
+<script async="" type="text/javascript" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/count.js"></script><script type="text/javascript" async="" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/embed.js"></script><link rel="prefetch" as="style" href="https://c.disquscdn.com/next/embed/styles/lounge.06570722360cf4a122ddf3f335b72d95.css"><link rel="prefetch" as="script" href="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/a_data/common.js"><link rel="prefetch" as="script" href="https://c.disquscdn.com/next/embed/lounge.bundle.a535c182ced11d6e50c91926d5fb5af7.js"><link rel="prefetch" as="script" href="https://disqus.com/next/config.js"><style type="text/css">#st-1 {
+  font-family: "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif;
+  -moz-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; -ms-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; -o-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; -webkit-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in;
+  direction: ltr;
+  display: block;
+  opacity: 1;
+  text-align: center;
+}
+#st-1.st-hidden {
+  opacity: 0;
+}
+#st-1 .st-btn {
+  -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  display: inline-block;
+  font-size: 24px;
+  line-height: 24px;
+  opacity: 1;
+  padding: 12px;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 72px;
+}
+#st-1 .st-btn > svg {
+  display: block;
+  height: 48px;
+  margin: auto;
+  width: 48px;
+  vertical-align: top;
+}
+#st-1 .st-btn > span {
+  -moz-transition: f 0.2s ease-in, o 0.2s ease-in, n 0.2s ease-in, t 0.2s ease-in, - 0.2s ease-in, s 0.2s ease-in, i 0.2s ease-in, z 0.2s ease-in, e 0.2s ease-in; -ms-transition: f 0.2s ease-in, o 0.2s ease-in, n 0.2s ease-in, t 0.2s ease-in, - 0.2s ease-in, s 0.2s ease-in, i 0.2s ease-in, z 0.2s ease-in, e 0.2s ease-in; -o-transition: f 0.2s ease-in, o 0.2s ease-in, n 0.2s ease-in, t 0.2s ease-in, - 0.2s ease-in, s 0.2s ease-in, i 0.2s ease-in, z 0.2s ease-in, e 0.2s ease-in; -webkit-transition: f 0.2s ease-in, o 0.2s ease-in, n 0.2s ease-in, t 0.2s ease-in, - 0.2s ease-in, s 0.2s ease-in, i 0.2s ease-in, z 0.2s ease-in, e 0.2s ease-in; transition: f 0.2s ease-in, o 0.2s ease-in, n 0.2s ease-in, t 0.2s ease-in, - 0.2s ease-in, s 0.2s ease-in, i 0.2s ease-in, z 0.2s ease-in, e 0.2s ease-in;;
+  color: #555;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  vertical-align: top;
+}
+#st-1 .st-btn .st-count.st-grow {
+  font-size: 18px;
+}
+#st-1 .st-btn.st-hide-count .st-count {
+  opacity: 0;
+}
+#st-1 .st-btn .st-text {
+  display: none;
+  font-weight: bold;
+  line-height: 12px;
+  white-space: normal;
+  word-break: break-all;
+}
+#st-1.st-justified {
+  display: flex;
+  text-align: center;
+}
+#st-1.st-justified .st-btn {
+  -moz-flex: 1;
+-ms-flex: 1;
+-webkit-flex: 1;
+flex: 1;
+}
+#st-1 .st-btn.st-selected {
+  -ms-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+}
+#st-1.st-reacted .st-btn:not(.st-selected) {
+  filter: grayscale(100%);
+}#st-1:not(.st-reacted) .st-btn:hover {
+  -ms-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+  cursor: pointer;
+}
+#st-1:not(.st-reacted) .st-btn:active {
+  -ms-transform: scale(1.4);
+-webkit-transform: scale(1.4);
+transform: scale(1.4);
+}
+#st-1.st-has-labels:not(.st-reacted) .st-btn:hover .st-count {
+  display: none;
+}
+#st-1.st-has-labels:not(.st-reacted) .st-btn:hover .st-text {
+  display: block;
+}
+#st-1.st-has-labels:not(.st-reacted) .st-btn:hover span {
+  font-size: 10px;
+}</style><style type="text/css">#st-4 {
+  font-family: "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif;;
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  backface-visibility: hidden;
+  display: block;
+  position: fixed;
+  opacity: 1;
+  text-align: left;
+  top: 160px;
+  z-index: 94034;
+}
+#st-4.st-left {
+  left: 0px;
+}
+#st-4.st-hidden.st-left {
+  left: -48px;
+}
+#st-4.st-hidden {
+  width: 96px;
+}
+#st-4 > div {
+  clear: left;
+  float: left;
+}
+#st-4 .st-btn {
+  -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  cursor: pointer;
+  display: inline-block;
+  font-size: NaNpx;
+  height: 48px;
+  line-height: 24px;
+  margin-bottom: 0;
+  opacity: 1;
+  overflow: hidden;
+  padding: 12px;
+  position: relative;
+  text-align: left;
+  top: 0;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 48px;
+}
+#st-4 .st-btn.st-first {
+  border-top-right-radius: 4px;
+}
+#st-4 .st-btn.st-last {
+  border-bottom-right-radius: 4px;
+}
+#st-4 .st-btn > svg {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  height: 24px;
+  margin-left: 0;
+  vertical-align: top;
+  width: 24px;
+}
+#st-4 .st-btn > img {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  height: 24px;
+  margin-left: 0;
+  vertical-align: top;
+  width: 24px;
+}
+#st-4 .st-btn > span {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  color: #fff;
+  display: inline-block;
+  font-weight: 500;
+  left: -35px;
+  letter-spacing: 0.5px;
+  opacity: 0;
+  padding: 0 6px;
+  position: relative;
+  vertical-align: top;
+  filter: alpha(opacity=0);
+}
+#st-4 .st-btn.st-hide-label > span {
+  display: none !important;
+}
+#st-4 .st-total {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  background: #fff;
+  color: #555;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 18px;
+  margin-right: 0;
+  min-height: 34px;
+  max-width: 80px;
+  opacity: 1;
+  padding: 4px 0;
+  text-align: center;
+  width: 48px;
+}
+#st-4 .st-total.st-hidden {
+  display: none;
+}
+#st-4 .st-total > span {
+  display: block;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 0;
+}
+#st-4 .st-total > span.st-shares {
+  font-size: 11px;
+  line-height: 11px;
+}
+#st-4 .st-toggle {
+  left: -48px;
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  background: #ccc;
+  border-bottom-right-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+  width: 48px;
+}
+#st-4.st-hidden .st-toggle {
+  border-top-right-radius: 4px;
+}
+#st-4.st-left .st-toggle .st-left {
+  display: inline-block;
+}
+#st-4.st-left.st-hidden .st-toggle .st-left {
+  display: none;
+}
+#st-4.st-left .st-toggle .st-right {
+  display: none;
+}
+#st-4.st-left.st-hidden .st-toggle .st-right {
+  display: inline-block;
+}#st-4:hover .st-toggle {
+  left: 0;
+}
+#st-4.st-hidden:hover .st-toggle {
+  left: 48px;
+}
+#st-4.st-toggleable:hover .st-btn.st-last {
+  border-bottom-right-radius: 0;
+}
+#st-4.st-toggleable:hover .st-btn.st-last:hover {
+  border-bottom-right-radius: 4px;
+}
+#st-4 .st-btn:hover {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+#st-4.st-has-labels .st-btn:hover {
+  width: 120px;
+}
+#st-4:not(.st-has-labels) .st-btn:hover {
+  width: 62px;
+}
+#st-4 .st-btn.st-hide-label:hover {
+  width: 62px;
+}
+#st-4 .st-btn:hover > svg {
+  margin-left: 5px;
+}
+#st-4 .st-btn:hover > img {
+  margin-left: 5px;
+}
+#st-4 .st-btn:hover > span {
+  opacity: 1;
+  display: inline-block;
+  left: 0;
+  filter: alpha(opacity=100);
+}
+@media (max-width: 1024px) {
+  #st-4 .st-btn:hover > svg {
+    margin-left: 0;
+  }
+  #st-4 .st-btn:hover > span {
+    display: none;
+  }
+}@media (max-width: 1024px) {
+  #st-4 {
+  bottom: 0;
+  display: flex;
+  left: 0;
+  right: 0;
+  top: auto;
+  width: 100%;
+}
+#st-4.st-hidden {
+  bottom: -48px;
+  width: 100%;
+}
+#st-4.st-hidden.st-left {
+  left: 0;
+}
+#st-4.st-hidden.st-right {
+  right: 0;
+}
+#st-4 > div {
+  -moz-flex: 1;
+  -ms-flex: 1;
+  -webkit-flex: 1;
+  clear: none;
+  flex: 1;
+  float: none;
+}
+#st-4 .st-total {
+  background: #fff;
+  padding: 6px 8px;
+}
+#st-4 .st-btn {
+  -moz-border-radius: 0 !important;
+-webkit-border-radius: 0 !important;
+border-radius: 0 !important;
+  text-align: center;
+  width: auto;
+}
+#st-4 .st-btn > span {
+  display: none;
+}
+#st-4 .st-toggle {
+  display: none;
+}body { padding-bottom: 48px; }
+}#st-4 .st-btn[data-network='facebook'] {
+  background-color: #3B5998;
+}
+#st-4 .st-btn[data-network='twitter'] {
+  background-color: #55acee;
+}
+#st-4 .st-btn[data-network='pinterest'] {
+  background-color: #CB2027;
+}
+#st-4 .st-btn[data-network='email'] {
+  background-color: #7d7d7d;
+}
+#st-4 .st-btn[data-network='sharethis'] {
+  background-color: #95D03A;
+}</style></head>
+
+<body class="post-template-default single single-post postid-5825 single-format-video custom-background wp-custom-logo no-siderbar">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+	<header id="masthead" class="site-header">
+            
+                <div class="site-logo">
+                            <a class="link-logo" href="https://xopixel.com/" rel="home">
+                                <div class="logo-svg">
+                                    <svg class="svg-xopixel-logo" aria-labelledby="svg-xopixel-logo-title" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155.76 36.5"><title id="svg-xopixel-logo-title">XO PIXEL Logo</title><defs><style>.cls-1{fill:#fff;}.cls-2{fill:#f079a6;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M9.56,27.65,4.05,35.21a2.06,2.06,0,0,1-1.82,1.06A2.22,2.22,0,0,1,0,34.34a2.33,2.33,0,0,1,.6-1.55l7.68-9.87c-.3-.41-1.4-1.77-7.18-9a2.37,2.37,0,0,1-.65-1.51,2.33,2.33,0,0,1,2.27-2,2.3,2.3,0,0,1,1.89,1.17c1.82,2.46,4.39,6,6.28,8.4l6.39-8.51a2.11,2.11,0,0,1,1.89-1.1,2.22,2.22,0,0,1,2.19,1.93,2,2,0,0,1-.53,1.36c-2.12,2.8-4.8,6.09-7.37,9.34l7.48,9.41a3.14,3.14,0,0,1,.91,1.86,2.37,2.37,0,0,1-2.34,2c-1,0-1.44-.53-2-1.32-1.74-2.42-3.7-5.14-5.06-7l-1.55-2Z"></path><path class="cls-1" d="M49.49,23c0,7.48-5.29,13.5-12.55,13.5A12.32,12.32,0,0,1,24.57,23.91c0-8.51,6.32-13.8,12.48-13.73A12.47,12.47,0,0,1,49.49,23ZM36.71,14c-4.27,0-7.94,4-7.94,9.49s3.78,9,8.39,9,8.17-4.47,8.13-9.46A8.7,8.7,0,0,0,36.71,14Z"></path><path class="cls-1" d="M63.21,15.63a21,21,0,0,1,.08-3.48,2.26,2.26,0,0,1,2.19-1.67c1.17-.11,3.78-.11,5.82-.15A11.83,11.83,0,0,1,77.8,12a7.49,7.49,0,0,1,3.33,6.81,8.43,8.43,0,0,1-6.2,8.05,35.4,35.4,0,0,1-6.27.34H67.45c0,2.31.07,4.54.07,7.22,0,1.36-1,1.89-2.19,1.89s-2.12-.68-2.12-1.74c0-4.76,0-9.26.08-14.44C63.29,19,63.25,16.76,63.21,15.63Zm4.31,7.82h1.82a18.2,18.2,0,0,0,4.42-.26A4.64,4.64,0,0,0,77,18.61a4,4,0,0,0-2.12-3.82,8.07,8.07,0,0,0-3.81-.71c-.8,0-2.84,0-3.63,0,0,1.44,0,3.78,0,6.2C67.48,21.34,67.52,22.36,67.52,23.45Z"></path><path class="cls-1" d="M85.37,12.3a1.93,1.93,0,0,1,2.19-2,1.81,1.81,0,0,1,2,1.81V21.3c0,1.7,0,4.57,0,6l0,6.92a1.87,1.87,0,0,1-2.12,2.08,1.9,1.9,0,0,1-2.15-2c0-.94,0-2.19,0-3.36l.07-10.36C85.44,18.39,85.4,15.59,85.37,12.3Z"></path><path class="cls-1" d="M103.44,27.65l-5.52,7.56a2,2,0,0,1-1.82,1.06,2.22,2.22,0,0,1-2.23-1.93,2.3,2.3,0,0,1,.61-1.55l7.67-9.87c-.3-.41-1.4-1.77-7.18-9a2.36,2.36,0,0,1-.64-1.51,2.22,2.22,0,0,1,4.16-.84c1.81,2.46,4.38,6,6.27,8.4l6.39-8.51a2.12,2.12,0,0,1,1.89-1.1,2.22,2.22,0,0,1,2.19,1.93,2,2,0,0,1-.53,1.36c-2.11,2.8-4.8,6.09-7.37,9.34l7.49,9.41a3.18,3.18,0,0,1,.9,1.86,2.37,2.37,0,0,1-2.34,2c-.94,0-1.44-.53-2-1.32-1.74-2.42-3.71-5.14-5.07-7l-1.55-2Z"></path><path class="cls-1" d="M122.64,10.45c.42,0,1.1,0,1.67,0,4.72,0,7.48-.07,9.34-.07,1.43,0,2,.72,2,1.7A1.66,1.66,0,0,1,134.51,14c-1.66.08-5.63,0-8.73,0h-1.66v3.63l0,3.55v.49h1.51c1.14,0,4.69-.07,6.13-.11s2.34.23,2.3,1.81c0,1-.45,1.78-2,1.78l-8.06,0c0,.76,0,1.62,0,2.42,0,1.55,0,3.25,0,4.8,1.81,0,4.76,0,8.62,0,.75,0,1.25-.07,1.85-.07,1.17,0,1.66.71,1.66,1.85s-.37,2-2.11,2c-2.54.08-5.64,0-10.17,0-3.1,0-3.9-.3-4-2.38v-1.4c0-.19.15-4.84.15-10.85,0-3.06,0-6.08,0-9.18C120,10.94,121.09,10.45,122.64,10.45Z"></path><path class="cls-1" d="M142.72,10.33a1.74,1.74,0,0,1,2,1.93c0,2.5-.07,5.22-.11,8,0,2.34,0,4.76,0,7.07,0,4.12,0,4.72,0,5.1,1.05,0,3.1,0,4,0l5.41-.18A1.61,1.61,0,0,1,155.76,34c0,1.25-.57,2.16-2,2.16l-4.31,0c-1.93,0-3.78,0-5.33.07-2.84.12-3.67-.34-3.86-2.41V32.3c0-2.91.15-6.13.19-9.3,0-3.44,0-8.13,0-10.74A2,2,0,0,1,142.72,10.33Z"></path><g id="_Group_" data-name="&lt;Group&gt;"><g id="_Group_2" data-name="&lt;Group&gt;"><path class="cls-2" d="M87.56,8.21a5.82,5.82,0,0,0-.62-1.45,21.79,21.79,0,0,0-1.57-2.1c-.57-.7-.92-1.14-1.06-1.33a3.55,3.55,0,0,1-.46-.84,2.08,2.08,0,0,1-.15-.78A1.59,1.59,0,0,1,84.22.5,1.81,1.81,0,0,1,85.52,0a2,2,0,0,1,1.34.51,2.64,2.64,0,0,1,.7,1.13A2.62,2.62,0,0,1,88.22.52,2,2,0,0,1,89.57,0a1.85,1.85,0,0,1,1.3.49,1.53,1.53,0,0,1,.53,1.16,2.82,2.82,0,0,1-.32,1.23,8.23,8.23,0,0,1-1.2,1.67A17.9,17.9,0,0,0,88.2,6.77,6.15,6.15,0,0,0,87.56,8.21Z"></path></g></g></g></g></svg>
+                                </div>
+                            </a>
+		</div><!-- .site-branding -->
+            <div class="nav-wrapper hidden">
+		<nav id="site-navigation" class="main-navigation">
+			<div class="menu-primary-navigation-top-menu-container"><ul id="primary-menu" class="menu"><li id="menu-item-9623" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-9623"><a href="https://xopixel.com/">Home</a></li>
+<li id="menu-item-9006" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9006"><a href="#">Learn</a>
+<ul class="sub-menu">
+	<li id="menu-item-6" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6"><a href="https://xopixel.com/category/design/">Design</a></li>
+	<li id="menu-item-11" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-11"><a href="https://xopixel.com/category/code/">Code</a></li>
+	<li id="menu-item-767" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-767"><a href="https://xopixel.com/category/tech/">Tech</a></li>
+	<li id="menu-item-763" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-763"><a href="https://xopixel.com/category/lifestyle/">Lifestyle</a></li>
+	<li id="menu-item-4805" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4805"><a href="https://xopixel.com/category/freebies/">Freebies</a></li>
+	<li id="menu-item-9008" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9008"><a href="https://xopixel.com/category/gold-membership/">Gold Membership</a></li>
+</ul>
+</li>
+<li id="menu-item-9624" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9624"><a href="#">More</a>
+<ul class="sub-menu">
+	<li id="menu-item-9026" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9026"><a href="https://xopixel.com/about/">About</a></li>
+	<li id="menu-item-9025" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9025"><a href="https://xopixel.com/contact/">Contact</a></li>
+	<li id="menu-item-9626" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9626"><a href="https://xopixel.com/gold-membership/">Join Gold Membership</a></li>
+</ul>
+</li>
+<li id="menu-item-10128" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10128"><a href="https://xopixel.com/xopixelperfect/">#XOPIXELPerfect</a></li>
+</ul></div>		</nav><!-- #site-navigation -->
+            </div>
+
+            <div class="search-icon hidden"><i class="fas fa-search"></i></div>
+                <div class="search-drawer">
+                    <form role="search" method="get" class="search-form" action="https://xopixel.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input class="search-field" placeholder="Search …" name="s" type="search">
+				</label>
+				<input class="search-submit" value="Search" type="submit">
+			</form>                    <span class="search-close"><i><svg><line x1="0%" y1="50%" x2="100%" y2="50%"></line>
+                  <line x1="50%" y1="0%" x2="50%" y2="100%"></line></svg></i></span>
+                </div>          
+         <nav id="login-navigation" class="login-navigation hidden">
+			<div class="menu-login-container"><ul id="login-menu" class="menu"><li id="menu-item-9628" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9628"><a href="https://xopixel.com/login/">Log In</a></li>
+</ul></div>	</nav><!-- #site-navigation -->
+         <div id="mySidenav" class="sidenav"> 
+                    <a href="javascript:void(0)" class="close-button" onclick="closeNav()"></a>
+			<div class="menu-mobile-menu-container"><ul id="mobile-menu" class="menu"><li id="menu-item-10129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10129"><a href="https://xopixel.com/xopixelperfect/">#XOPIXELPerfect</a></li>
+<li id="menu-item-7755" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7755"><a href="https://xopixel.com/category/design/">Design</a></li>
+<li id="menu-item-7756" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7756"><a href="https://xopixel.com/category/lifestyle/">Lifestyle</a></li>
+<li id="menu-item-7757" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-7757"><a href="https://xopixel.com/category/code/">Code</a></li>
+<li id="menu-item-7758" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7758"><a href="https://xopixel.com/category/tech/">Tech</a></li>
+<li id="menu-item-7760" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7760"><a href="https://xopixel.com/category/freebies/">Freebies</a></li>
+<li id="menu-item-7759" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7759"><a href="https://xopixel.com/category/gold-membership/">Gold Membership</a></li>
+<li id="menu-item-7762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7762"><a href="https://xopixel.com/about/">About</a></li>
+<li id="menu-item-7761" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7761"><a href="https://xopixel.com/contact/">Contact</a></li>
+</ul></div>                    <form role="search" method="get" class="search-form" action="https://xopixel.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input class="search-field" placeholder="Search …" name="s" type="search">
+				</label>
+				<input class="search-submit" value="Search" type="submit">
+			</form>		</div>
+                <span class="mobile-open" onclick="openNav()">☰</span>
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+
+		  
+
+<div class="featured-video">
+    <div class="featured-video-container">
+    <div class="videoWrapper"><iframe src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/THIQgTqT-io.htm" allow="autoplay; encrypted-media" allowfullscreen="" width="1080" height="608" frameborder="0"></iframe></div>    </div>
+</div>
+<section class="main-content">
+<article id="post-5825" class="post-5825 post type-post status-publish format-video has-post-thumbnail hentry category-code category-video tag-code tag-css tag-css3 tag-html tag-html5 tag-tutorial tag-youtube post_format-post-format-video">
+    	<header class="entry-header">
+		<h1 class="entry-title">Responsive Animated Image Grid HTML5 CSS3</h1>			<div class="entry-meta">
+				<span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://xopixel.com/author/madr/">Marisa</a></span></span><span class="posted-on"><a href="https://xopixel.com/responsive-animated-image-grid-html5-css3/" rel="bookmark"><time class="entry-date published" datetime="2017-01-31T10:30:55-04:00">January 31, 2017</time><time class="updated" datetime="2018-06-11T13:54:11-04:00">June 11, 2018</time></a></span>			</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+    <section class="post-content">
+	<div class="entry-content"> 
+            <script async="" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/adsbygoogle.js"></script>
+            <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-4560058795571971" data-ad-slot="7129286883"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+		<div class="xo-links-container"><a class="demo" href="https://xopixel.com/demo/Responsive%20Animated%20Image%20Grid%20/" target="_blank" rel="noopener">View Demo</a><a class="download" href="https://github.com/xopixel/ResponsiveAnimatedImageGrid/archive/master.zip">Download</a></div>
+<h2>The HTML5</h2>
+<p>First, we’re going to create a div and give it the class 
+“xop-section”. Within this div, we’re going to create an unordered list 
+and name it “xop-grid”. Now we’re going to create the actual image 
+squares by first using the list tag. Then, we’re going to use the div 
+tag and give it two classes: xop-box and xop-img-1. Remember that we’ll 
+be selecting all of the class names we made in the HTML in our CSS 
+stylesheet. Within the div, we’re going to finally add some text—let’s 
+add a heading using the h3 tag and then add a short line of text using 
+the p tag.</p>
+<pre class=" language-html"><code class=" language-html">
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>xop-section<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>xop-grid<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>xop-box xop-img-1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>xop-info<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h3</span><span class="token punctuation">&gt;</span></span>Paint<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h3</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>xop-box xop-img-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>xop-info<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h3</span><span class="token punctuation">&gt;</span></span>Soap<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h3</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>xop-box xop-img-3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>xop-info<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h3</span><span class="token punctuation">&gt;</span></span>Flowers<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h3</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>xop-box xop-img-4<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>xop-info<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h3</span><span class="token punctuation">&gt;</span></span>Feathers<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h3</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Nulla commodo iaculis vulputate. Nullam enim mauris, dignissim id est nec, mollis pretium nulla.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre>
+<h2>The CSS3</h2>
+<p>I’ve added the Google Fonts code at the top of the CSS file since 
+we’ll be using this font for our h3 headings. The first selection we’ll 
+be making is the xop-section—which acts as the container for the images.
+ We’re going to set it’s max-width to 960px. Then, we’re going to use 
+margin: 0 auto to center everything. Lastly, we’re going to add some 
+padding all around.</p>
+<p>Next, we’re going to add a margin to the top of the xop-grid. Set padding to 0, remove bullets using the <strong>list-style: none</strong> declaration, display it as a block element, align the text to the center and set it’s width to 100%.</p>
+<p>We’re just going to add a few declarations to accommodate for 
+Internet Explorer so our Responsive Animated Image Grid show up how we 
+want it to.</p>
+<p>Now, we’re going to style the actual size of the boxes and how we 
+want to display them. First, we’re going to set it’s width and height to
+ 328px. Then, we’re going to display the list items inline-block. 
+Lastly, we’re going to add a margin all around them that’s 20px.</p>
+<pre class=" language-css"><code class=" language-css">
+<span class="token atrule"><span class="token rule">@import</span> <span class="token url">url('https://fonts.googleapis.com/css?family=Pacifico')</span><span class="token punctuation">;</span></span>
+<span class="token selector">.xop-section</span> <span class="token punctuation">{</span>
+	<span class="token property">max-width</span><span class="token punctuation">:</span> 960px<span class="token punctuation">;</span>
+	<span class="token property">margin</span><span class="token punctuation">:</span> 0 auto<span class="token punctuation">;</span>
+	<span class="token property">padding</span><span class="token punctuation">:</span> 6% 2%<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.xop-grid</span> <span class="token punctuation">{</span>
+	<span class="token property">margin</span><span class="token punctuation">:</span> 20px 0 0 0<span class="token punctuation">;</span>
+	<span class="token property">padding</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+	<span class="token property">list-style</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+	<span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+	<span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+	<span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.xop-grid:after</span> <span class="token punctuation">{</span>
+	<span class="token property">clear</span><span class="token punctuation">:</span> both<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.xop-grid:after, .xop-box:before</span> <span class="token punctuation">{</span>
+	<span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">''</span><span class="token punctuation">;</span>
+	<span class="token property">display</span><span class="token punctuation">:</span> table<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.xop-grid li</span> <span class="token punctuation">{</span>
+	<span class="token property">width</span><span class="token punctuation">:</span> 328px<span class="token punctuation">;</span>
+	<span class="token property">height</span><span class="token punctuation">:</span> 328px<span class="token punctuation">;</span>
+	<span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span>
+	<span class="token property">margin</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>We’re going to add some cool transitions and transformations in this 
+selector. First, we’re going to set it’s width and height to 100%. Then,
+ we’re going to set the position of everything in the boxes, which 
+includes all the text, to “relative”. We’re going to use the pointer 
+cursor and set its border-radius to 10px to add rounded corners to the 
+box.</p>
+<p>Now, we’re going to add the browser support for the transitions and 
+transform properties. That way, there is a smooth transition and 
+transformation to the boxes. We’re going to add a 3-second delay for 
+both properties.</p>
+<pre class=" language-css"><code class=" language-css">
+<span class="token selector">.xop-grid li</span> <span class="token punctuation">{</span>
+	<span class="token property">width</span><span class="token punctuation">:</span> 328px<span class="token punctuation">;</span>
+	<span class="token property">height</span><span class="token punctuation">:</span> 328px<span class="token punctuation">;</span>
+	<span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span>
+	<span class="token property">margin</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.xop-box</span> <span class="token punctuation">{</span>
+	<span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+	<span class="token property">height</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+	<span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+	<span class="token property">cursor</span><span class="token punctuation">:</span> pointer<span class="token punctuation">;</span>
+    <span class="token property">border-radius</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+    <span class="token property">-webkit-transition</span><span class="token punctuation">:</span> 0.3s ease-in-out, 
+    -webkit-transform 0.3s ease-in-out<span class="token punctuation">;</span>
+	<span class="token property">-moz-transition</span><span class="token punctuation">:</span>  0.3s ease-in-out, 
+    -moz-transform 0.3s ease-in-out<span class="token punctuation">;</span>
+    <span class="token property">transition</span><span class="token punctuation">:</span> all 0.3s ease-in-out, 
+    transform 0.3s ease-in-out, <span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.xop-box:hover</span> <span class="token punctuation">{</span>
+	<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">scale</span><span class="token punctuation">(</span>1.05<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+<span class="token punctuation">}</span>
+</code></pre>
+<p>Now, we’re just going to add the background image and add a subtle 
+dark gradient so that the text that we’re going to put on top is easier 
+to read. Since we’re going to do the same thing for all four boxes, I’m 
+just going to copy and paste the declaration and just change the image 
+number for each individual class name.</p>
+<p>We’re almost done but first, we need to style the container that 
+holders all of our text elements. Let’s set the position of the 
+.xop-info container to absolute and have it inherit our width and height
+ sizes.</p>
+<p>Finally, we’re going to style our heading and our paragraph text. Note that I’m using two different Google fonts for both.</p>
+<pre class=" language-css"><code class=" language-css">
+<span class="token selector">.xop-img-1</span> <span class="token punctuation">{</span>
+	<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span> <span class="token function">rgba</span><span class="token punctuation">(</span>0, 0, 0, 0.50<span class="token punctuation">)</span>, <span class="token function">rgba</span><span class="token punctuation">(</span>0, 0, 0, 0.10<span class="token punctuation">)</span><span class="token punctuation">)</span>, <span class="token comment">/* bottom, image */</span>
+	<span class="token url">url(../images/paint.jpg)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.xop-img-2</span> <span class="token punctuation">{</span>
+	<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span> <span class="token function">rgba</span><span class="token punctuation">(</span>0, 0, 0, 0.50<span class="token punctuation">)</span>, <span class="token function">rgba</span><span class="token punctuation">(</span>0, 0, 0, 0.10<span class="token punctuation">)</span><span class="token punctuation">)</span>, <span class="token comment">/* bottom, image */</span>
+	<span class="token url">url(../images/soap.jpg)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.xop-img-3</span> <span class="token punctuation">{</span>
+	<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span> <span class="token function">rgba</span><span class="token punctuation">(</span>0, 0, 0, 0.50<span class="token punctuation">)</span>, <span class="token function">rgba</span><span class="token punctuation">(</span>0, 0, 0, 0.10<span class="token punctuation">)</span><span class="token punctuation">)</span>, <span class="token comment">/* bottom, image */</span>
+	<span class="token url">url(../images/flower.jpg)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.xop-img-4</span> <span class="token punctuation">{</span>
+	<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span> <span class="token function">rgba</span><span class="token punctuation">(</span>0, 0, 0, 0.50<span class="token punctuation">)</span>, <span class="token function">rgba</span><span class="token punctuation">(</span>0, 0, 0, 0.10<span class="token punctuation">)</span><span class="token punctuation">)</span>, <span class="token comment">/* bottom, image */</span>
+	<span class="token url">url(../images/feather.jpg)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.xop-info</span> <span class="token punctuation">{</span>
+	<span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+	<span class="token property">width</span><span class="token punctuation">:</span> inherit<span class="token punctuation">;</span>
+	<span class="token property">height</span><span class="token punctuation">:</span> inherit<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.xop-info h3</span> <span class="token punctuation">{</span>
+	<span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token string">'Pacifico'</span>, cursive<span class="token punctuation">;</span>
+	<span class="token property">font-weight</span><span class="token punctuation">:</span> 400<span class="token punctuation">;</span>
+	<span class="token property">color</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+	<span class="token property">font-size</span><span class="token punctuation">:</span> 42px<span class="token punctuation">;</span>
+	<span class="token property">margin</span><span class="token punctuation">:</span> 0 30px<span class="token punctuation">;</span>
+	<span class="token property">padding</span><span class="token punctuation">:</span> 100px 0 0 0<span class="token punctuation">;</span>
+	<span class="token property">line-height</span><span class="token punctuation">:</span> 1.5<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.xop-info p</span> <span class="token punctuation">{</span>
+	<span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token string">'Source Sans Pro'</span>, sans-serif<span class="token punctuation">;</span>
+	<span class="token property">color</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+	<span class="token property">padding</span><span class="token punctuation">:</span> 4px 5px<span class="token punctuation">;</span>
+	<span class="token property">margin</span><span class="token punctuation">:</span> 0 30px<span class="token punctuation">;</span>
+	<span class="token property">font-size</span><span class="token punctuation">:</span> 14px<span class="token punctuation">;</span>
+	<span class="token property">line-height</span><span class="token punctuation">:</span> 2<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h3>Comment Below</h3>
+<p>Feel free to share a screenshot of what you’ve made using this 
+tutorial in the comments section below! Have any questions or comments? 
+Let’s chat in the comment below!</p>
+<div class="xo-links-container"><a class="demo" href="https://xopixel.com/demo/Responsive%20Animated%20Image%20Grid%20/" target="_blank" rel="noopener">View Demo</a><a class="download" href="https://github.com/xopixel/ResponsiveAnimatedImageGrid/archive/master.zip">Download</a></div>
+            <h3 class="a-center">Like this article?</h3>
+            <div class="sharethis-inline-reaction-buttons st-inline-reaction-buttons st-center  st-has-labels" id="st-1"><div class="st-btn st-first" data-reaction="slight_smile">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" enable-background="new 0 0 64 64">
+    <circle cx="32" cy="32" r="30" fill="#ffdd67"></circle><g fill="#664e27"><circle cx="20.5" cy="26.6" r="5"></circle><circle cx="43.5" cy="26.6" r="5"></circle><path d="m44.6 40.3c-8.1 5.7-17.1 5.6-25.2 0-1-.7-1.8.5-1.2 1.6 2.5 4 7.4 7.7 13.8 7.7s11.3-3.6 13.8-7.7c.6-1.1-.2-2.3-1.2-1.6"></path></g>
+  </svg>
+  <span class="st-count">4</span>
+  <span class="st-text">
+  LIKE
+</span>
+</div><div class="st-btn" data-reaction="heart_eyes">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" enable-background="new 0 0 64 64">
+    <path d="M62,32c0,16.6-13.4,30-30,30C15.4,62,2,48.6,2,32C2,15.4,15.4,2,32,2C48.6,2,62,15.4,62,32z" fill="#ffdd67"></path><g fill="#f46767"><path d="m61.8 13.2c-.5-2.7-2-4.9-4.5-5.6-2.7-.7-5.1.3-7.4 2.7-1.3-3.6-3.3-6.3-6.5-7.7-3.2-1.4-6.4-.4-8.4 2.1-2.1 2.6-2.9 6.7-.7 12 2.1 5 11.4 15 11.7 15.3.4-.2 10.8-6.7 13.3-9.9 2.5-3.1 3-6.2 2.5-8.9"></path><path d="m29 4.7c-2-2.5-5.2-3.5-8.4-2.1-3.2 1.4-5.2 4.1-6.5 7.7-2.4-2.3-4.8-3.4-7.5-2.6-2.4.7-4 2.9-4.5 5.6-.5 2.6.1 5.8 2.5 8.9 2.6 3.1 13 9.6 13.4 9.8.3-.3 9.6-10.3 11.7-15.3 2.2-5.3 1.4-9.3-.7-12"></path></g><path d="m49 38.1c0-.8-.5-1.8-1.8-2.1-3.5-.7-8.6-1.3-15.2-1.3-6.6 0-11.7.7-15.2 1.3-1.4.3-1.8 1.3-1.8 2.1 0 7.3 5.6 14.6 17 14.6 11.4-.1 17-7.4 17-14.6" fill="#664e27"></path><path d="m44.7 38.3c-2.2-.4-6.8-1-12.7-1-5.9 0-10.5.6-12.7 1-1.3.2-1.4.7-1.3 1.5.1.4.1 1 .3 1.6.1.6.3.9 1.3.8 1.9-.2 23-.2 24.9 0 1 .1 1.1-.2 1.3-.8.1-.6.2-1.1.3-1.6 0-.8-.1-1.3-1.4-1.5" fill="#fff"></path>
+  </svg>
+  <span class="st-count">7</span>
+  <span class="st-text">
+  LOVE
+</span>
+</div><div class="st-btn" data-reaction="laughing">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" enable-background="new 0 0 64 64">
+    <circle cx="32" cy="32" r="30" fill="#ffdd67"></circle><g fill="#664e27"><path d="m51.7 19.4c.6.3.3 1-.2 1.1-2.7.4-5.5.9-8.3 2.4 4 .7 7.2 2.7 9 4.8.4.5-.1 1.1-.5 1-4.8-1.7-9.7-2.7-15.8-2-.5 0-.9-.2-.8-.7 1.6-7.3 10.9-10 16.6-6.6"></path><path d="m12.3 19.4c-.6.3-.3 1 .2 1.1 2.7.4 5.5.9 8.3 2.4-4 .7-7.2 2.7-9 4.8-.4.5.1 1.1.5 1 4.8-1.7 9.7-2.7 15.8-2 .5 0 .9-.2.8-.7-1.6-7.3-10.9-10-16.6-6.6"></path><path d="m49.7 34.4c-.4-.5-1.1-.4-1.9-.4-15.8 0-15.8 0-31.6 0-.8 0-1.5-.1-1.9.4-3.9 5 .7 19.6 17.7 19.6 17 0 21.6-14.6 17.7-19.6"></path></g><path d="m33.8 41.7c-.6 0-1.5.5-1.1 2 .2.7 1.2 1.6 1.2 2.8 0 2.4-3.8 2.4-3.8 0 0-1.2 1-2 1.2-2.8.3-1.4-.6-2-1.1-2-1.6 0-4.1 1.7-4.1 4.6 0 3.2 2.7 5.8 6 5.8s6-2.6 6-5.8c-.1-2.8-2.7-4.5-4.3-4.6" fill="#4c3526"></path><path d="m24.3 50.7c2.2 1 4.8 1.5 7.7 1.5s5.5-.6 7.7-1.5c-2.1-1.1-4.7-1.7-7.7-1.7s-5.6.6-7.7 1.7" fill="#ff717f"></path><path d="m47 36c-15 0-15 0-29.9 0-2.1 0-2.1 4-.1 4 10.4 0 19.6 0 30 0 2 0 2-4 0-4" fill="#fff"></path>
+  </svg>
+  <span class="st-count">0</span>
+  <span class="st-text">
+  LOL
+</span>
+</div><div class="st-btn" data-reaction="astonished">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" enable-background="new 0 0 64 64">
+    <circle cx="32" cy="32" r="30" fill="#ffdd67"></circle><circle cx="19" cy="29" r="11" fill="#fff"></circle><path d="m24 29c0 2.8-2.2 5-5 5-2.8 0-5-2.2-5-5s2.2-5 5-5c2.8 0 5 2.2 5 5" fill="#664e27"></path><path d="m56 29c0 6.1-4.9 11-11 11-6.1 0-11-4.9-11-11 0-6.1 4.9-11 11-11 6.1 0 11 4.9 11 11" fill="#fff"></path><path d="m50 29c0 2.8-2.2 5-5 5-2.8 0-5-2.2-5-5s2.2-5 5-5c2.8 0 5 2.2 5 5" fill="#664e27"></path><g fill="#917524"><path d="m50.2 15.8c-3.2-2.7-7.5-3.9-11.7-3.1-.6.1-1.1-2-.4-2.2 4.8-.9 9.8.5 13.5 3.6.6.5-1 2.1-1.4 1.7"></path><path d="m25.5 12.5c-4.2-.7-8.5.4-11.7 3.1-.4.4-2-1.2-1.4-1.7 3.7-3.2 8.7-4.5 13.5-3.6.7.2.2 2.3-.4 2.2"></path></g><circle cx="32" cy="49" r="9" fill="#664e27"></circle><path d="m26 46c1.2-2.4 3.4-4 6-4 2.6 0 4.8 1.6 6 4h-12" fill="#fff"></path>
+  </svg>
+  <span class="st-count">0</span>
+  <span class="st-text">
+  WOW
+</span>
+</div><div class="st-btn" data-reaction="sob">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" enable-background="new 0 0 64 64">
+    <g fill="#65b1ef"><ellipse cx="17.5" cy="59.9" rx="12.5" ry="1.5"></ellipse><ellipse cx="44" cy="60.2" rx="18" ry="1.8"></ellipse></g><circle cx="32" cy="32" r="30" fill="#ffdd67"></circle><path d="m44.7 46c-1.4-3.6-4.8-6-12.7-6-8 0-11.3 2.4-12.7 6-.7 1.9.3 5 .3 5 1.3 3.9 1.1 5 12.4 5 11.3 0 11.1-1.1 12.4-5 0 0 1.1-3.1.3-5" fill="#664e27"></path><path d="m41 45c.1-.3 0-.6-.2-.8 0 0-2-2.2-8.8-2.2-6.8 0-8.8 2.2-8.8 2.2-.2.1-.2.5-.2.8l.2.6c.1.3.3.5.5.5h16.6c.2 0 .5-.2.5-.5l.2-.6" fill="#fff"></path><g fill="#65b1ef"><path d="m44.5 60.5c2.3 0 4.6 0 6.8 0 8.2-9.9-1.5-20 .9-29.8-2.3 0-4.6 2.5-6.8 2.5-3.2 9.5 7.3 17.4-.9 27.3"></path><path d="m19.5 60.5c-2.3 0-4.6 0-6.8 0-8.2-9.9 1.5-20-.9-29.8 2.3 0 4.6 2.5 6.8 2.5 3.2 9.5-7.3 17.4.9 27.3"></path></g><g fill="#917524"><path d="m40.7 18.3c3 3 7.2 4.5 11.4 4.1.6-.1.9 2.1.2 2.2-4.9.4-9.7-1.3-13.1-4.8-.6-.5 1.1-1.9 1.5-1.5"></path><path d="m12 22.4c4.2.4 8.4-1.1 11.4-4.1.4-.4 2.1 1 1.6 1.5-3.4 3.5-8.3 5.2-13.1 4.8-.9 0-.5-2.2.1-2.2"></path></g><g fill="#664e27"><path d="m35.9 30.3c4.2 8 12.7 8 16.9 0 .2-.4-.3-.6-1-1-4.2 3.3-11.1 3-14.9 0-.6.4-1.2.6-1 1"></path><path d="m11.2 30.3c4.2 8 12.7 8 16.9 0 .2-.4-.3-.6-1-1-4.2 3.3-11.1 3-14.9 0-.7.4-1.2.6-1 1"></path></g>
+  </svg>
+  <span class="st-count">0</span>
+  <span class="st-text">
+  SAD
+</span>
+</div><div class="st-btn st-last" data-reaction="rage">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" enable-background="new 0 0 64 64">
+    <circle cx="32" cy="32" r="30" fill="#ef5350"></circle><path d="m41 49.7c-5.8-4.8-12.2-4.8-18 0-.7.6-1.3-.4-.8-1.3 1.8-3.4 5.3-6.5 9.8-6.5s8.1 3.1 9.8 6.5c.5.8-.1 1.8-.8 1.3" fill="#302424"></path><path d="m10.2 24.9c-1.5 4.7.6 10 5.3 12.1 4.6 2.2 10 .5 12.7-3.7l-6.9-7.7-11.1-.7" fill="#fff"></path><g fill="#302424"><path d="m14.2 25.8c-1.4 2.9-.1 6.4 2.8 7.7 2.9 1.4 6.4.1 7.7-2.8 1-1.9-9.6-6.8-10.5-4.9"></path><path d="m10.2 24.9c1.6-1 3.5-1.5 5.4-1.5 1.9 0 3.8.5 5.6 1.3 1.7.8 3.3 2 4.6 3.4 1.2 1.5 2.2 3.2 2.4 5.1-1.3-1.3-2.6-2.4-4-3.4-1.4-1-2.8-1.8-4.2-2.4-1.5-.7-3-1.2-4.6-1.7-1.8-.3-3.4-.6-5.2-.8"></path></g><path d="m53.8 24.9c1.5 4.7-.6 10-5.3 12.1-4.6 2.2-10 .5-12.7-3.7l6.9-7.7 11.1-.7" fill="#fff"></path><g fill="#302424"><path d="m49.8 25.8c1.4 2.9.1 6.4-2.8 7.7-2.9 1.4-6.4.1-7.7-2.8-1-1.9 9.6-6.8 10.5-4.9"></path><path d="m53.8 24.9c-1.6-1-3.5-1.5-5.4-1.5-1.9 0-3.8.5-5.6 1.3-1.7.8-3.3 2-4.6 3.4-1.2 1.5-2.2 3.2-2.4 5.1 1.3-1.3 2.6-2.4 4-3.4 1.4-1 2.8-1.8 4.2-2.4 1.5-.7 3-1.2 4.6-1.7 1.8-.3 3.4-.6 5.2-.8"></path></g>
+  </svg>
+  <span class="st-count">1</span>
+  <span class="st-text">
+  ANGRY
+</span>
+</div></div>
+<div class="matched-content">
+    <script async="" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/adsbygoogle.js"></script>
+    <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-4560058795571971" data-ad-slot="2222899973" data-matched-content-ui-type="image_stacked" data-matched-content-rows-num="2" data-matched-content-columns-num="3"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+	</div><!-- .entry-content -->
+	<div class="author-box">
+    <div class="author-box-wrapper">
+        <div class="author-pic">
+            <img alt="" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/6ba5a3e00264ec4266997e434ad9de4c.png" srcset="https://secure.gravatar.com/avatar/6ba5a3e00264ec4266997e434ad9de4c?s=160&amp;d=mm&amp;r=g 2x" class="avatar avatar-80 photo" width="80" height="80">        </div>
+        <div class="author-bio">
+            <h3><a href="https://xopixel.com/author/madr/" title="Posts by Marisa" rel="author">Marisa</a></h3>
+            <p>I'm a Content Creator, Front-End Web Developer, UI 
+Designer, based in Toronto, Canada. I have a healthy addiction to the 
+internet, technology, and digital media. I'm so passionate about all 
+things design and tech that I write about it any chance I get on my blog
+ <a href="https://xopixel.com/wp-admin/profile.php">xopixel.com</a>! <a href="https://facebook.com/xopixell" class="author-fb" rel="nofollow" target="_blank"></a> <a href="https://twitter.com/xopixell" rel="nofollow" class="author-tw" target="_blank"></a> <a href="https://www.xopixel.com/" class="author-site" rel="nofollow" target="_blank"></a> </p>    
+        </div>
+    </div>
+</div>
+        
+<div id="disqus_thread"><iframe id="dsq-app9028" name="dsq-app9028" allowtransparency="true" scrolling="no" tabindex="0" title="Disqus" style="width: 1px !important; min-width: 100% !important; border: medium none !important; overflow: hidden !important; height: 0px !important;" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/a.htm" horizontalscrolling="no" verticalscrolling="no" width="100%" frameborder="0"></iframe></div>
+    </section>
+        </article><!-- #post-5825 -->
+</section>
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+        <div class="cta-optin">
+            <div class="optin-left">
+            <img src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/cheat-sheet-t.png">
+            </div>
+            <div class="optin-right">
+        
+<aside id="footer-top-area" class="footer-top">
+	<section id="custom_html-9" class="widget_text widget widget_custom_html"><h2 class="widget-title">Get Your Free HTML &amp; CSS Cheat Sheets!</h2><div class="textwidget custom-html-widget"><p>
+	Enter your email below and get your free HTML and CSS code cheat sheet, free when you join the XO PIXEL newsletter.
+</p>
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="https://xopixel.us8.list-manage.com/subscribe/post?u=3c81a35adc1d2523e8e2b9db6&amp;id=95afbb4566" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+    <div id="mc_embed_signup_scroll">
+	
+<div class="mc-field-group">
+	<input placeholder="Enter your first name" name="FNAME" class="required" id="mce-FNAME" type="text">
+</div>
+<div class="mc-field-group">
+	<input placeholder="Enter your email address" name="EMAIL" class="required email" id="mce-EMAIL" type="email">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input name="b_3c81a35adc1d2523e8e2b9db6_95afbb4566" tabindex="-1" type="text"></div>
+    <div class="clear"><input value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" type="submit"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup--></div></section></aside><!-- #secondary -->
+            </div>
+        </div>
+	<footer id="colophon" class="site-footer">
+            <div class="footer-wrapper">
+                
+                
+
+
+<aside id="footer-widget-area" class="footer-widgets">
+    <div class="footer-widget-container">
+	<section id="text-123" class="widget widget_text"><h2 class="widget-title">Topics</h2>			<div class="textwidget"></div>
+		</section><section id="tag_cloud-5" class="widget widget_tag_cloud"><h2 class="widget-title">Topics</h2><div class="tagcloud"><a href="https://xopixel.com/category/code/" class="tag-cloud-link tag-link-3 tag-link-position-1" style="font-size: 19.421052631579pt;" aria-label="Code (33 items)">Code</a>
+<a href="https://xopixel.com/category/design/" class="tag-cloud-link tag-link-7 tag-link-position-2" style="font-size: 22pt;" aria-label="Design (54 items)">Design</a>
+<a href="https://xopixel.com/category/freebies/" class="tag-cloud-link tag-link-282 tag-link-position-3" style="font-size: 15.368421052632pt;" aria-label="Freebies (15 items)">Freebies</a>
+<a href="https://xopixel.com/category/gold-membership/" class="tag-cloud-link tag-link-317 tag-link-position-4" style="font-size: 17.578947368421pt;" aria-label="Gold Membership (23 items)">Gold Membership</a>
+<a href="https://xopixel.com/category/lifestyle/" class="tag-cloud-link tag-link-13 tag-link-position-5" style="font-size: 21.017543859649pt;" aria-label="Lifestyle (45 items)">Lifestyle</a>
+<a href="https://xopixel.com/category/podcast/" class="tag-cloud-link tag-link-342 tag-link-position-6" style="font-size: 8pt;" aria-label="Podcast (3 items)">Podcast</a>
+<a href="https://xopixel.com/category/sponsored/" class="tag-cloud-link tag-link-328 tag-link-position-7" style="font-size: 9.2280701754386pt;" aria-label="Sponsored (4 items)">Sponsored</a>
+<a href="https://xopixel.com/category/tech/" class="tag-cloud-link tag-link-20 tag-link-position-8" style="font-size: 19.912280701754pt;" aria-label="Tech (36 items)">Tech</a>
+<a href="https://xopixel.com/category/video/" class="tag-cloud-link tag-link-360 tag-link-position-9" style="font-size: 21.754385964912pt;" aria-label="Video (52 items)">Video</a></div>
+</section>    </div>
+    <div class="footer-widget-container">
+        <section id="nav_menu-6" class="widget widget_nav_menu"><h2 class="widget-title">Quick Links</h2><div class="menu-quick-links-container"><ul id="menu-quick-links" class="menu"><li id="menu-item-9630" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9630"><a href="https://xopixel.com/about/">About</a></li>
+<li id="menu-item-9629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9629"><a href="https://xopixel.com/contact/">Contact</a></li>
+<li id="menu-item-9724" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9724"><a href="https://xopixel.com/gold-membership/">Join Gold Membership</a></li>
+</ul></div></section>    </div>
+    <div class="footer-widget-container">
+        <section id="custom_html-10" class="widget_text widget widget_custom_html"><h2 class="widget-title">Stay In Touch</h2><div class="textwidget custom-html-widget"><div class="footer-social"><a href="https://www.facebook.com/xopixell" class="footer-social-link" rel="noopener" target="_blank"><i class="icon"><svg aria-labelledby="svg-facebook-icon" focusable="false" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" version="1.1" id="facebook-icon" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 60.734 60.733" style="enable-background:new 0 0 60.734 60.733;" xml:space="preserve"><title id="svg-facebook-icon-title">Facebook Icon</title><g><path d="M57.378,0.001H3.352C1.502,0.001,0,1.5,0,3.353v54.026c0,1.853,1.502,3.354,3.352,3.354h29.086V37.214h-7.914v-9.167h7.914 v-6.76c0-7.843,4.789-12.116,11.787-12.116c3.355,0,6.232,0.251,7.071,0.36v8.198l-4.854,0.002c-3.805,0-4.539,1.809-4.539,4.462 v5.851h9.078l-1.187,9.166h-7.892v23.52h15.475c1.852,0,3.355-1.503,3.355-3.351V3.351C60.731,1.5,59.23,0.001,57.378,0.001z" fill="#FFFFFF"></path></g></svg></i></a><a href="https://github.com/xopixel" class="footer-social-link" rel="noopener" target="_blank"> <i class="icon"><svg aria-labelledby="svg-github-icon-title" focusable="false" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" version="1.1" id="github-icon" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 438.536;" xml:space="preserve"><title id="svg-github-icon-title">GitHub Icon</title> <g><path d="M158.173,352.599c-3.049,0.568-4.381,1.999-3.999,4.281c0.38,2.283,2.093,3.046,5.138,2.283 c3.049-0.76,4.38-2.095,3.997-3.997C162.931,353.074,161.218,352.216,158.173,352.599z" fill="#FFFFFF"></path><path d="M141.898,354.885c-3.046,0-4.568,1.041-4.568,3.139c0,2.474,1.619,3.518,4.853,3.138c3.046,0,4.57-1.047,4.57-3.138 C146.753,355.553,145.134,354.502,141.898,354.885z" fill="#FFFFFF"></path><path d="M119.629,354.022c-0.76,2.095,0.478,3.519,3.711,4.284c2.855,1.137,4.664,0.568,5.424-1.714 c0.572-2.091-0.666-3.61-3.711-4.568C122.197,351.265,120.39,351.922,119.629,354.022z" fill="#FFFFFF"></path><path d="M414.41,24.123C398.326,8.042,378.964,0,356.309,0H82.225C59.577,0,40.208,8.042,24.123,24.123 C8.042,40.207,0,59.576,0,82.225v274.088c0,22.65,8.042,42.017,24.123,58.098c16.084,16.084,35.454,24.126,58.102,24.126h63.953 c4.184,0,7.327-0.144,9.42-0.424c2.092-0.288,4.184-1.526,6.279-3.717c2.096-2.187,3.14-5.376,3.14-9.562 c0-0.568-0.05-7.046-0.144-19.417c-0.097-12.375-0.144-22.176-0.144-29.41l-6.567,1.143c-4.187,0.76-9.469,1.095-15.846,0.999 c-6.374-0.096-12.99-0.76-19.841-1.998c-6.855-1.239-13.229-4.093-19.13-8.562c-5.898-4.477-10.085-10.328-12.56-17.559 l-2.856-6.571c-1.903-4.373-4.899-9.229-8.992-14.554c-4.093-5.332-8.232-8.949-12.419-10.852l-1.999-1.428 c-1.331-0.951-2.568-2.098-3.711-3.429c-1.141-1.335-1.997-2.669-2.568-3.997c-0.571-1.335-0.097-2.43,1.427-3.289 c1.524-0.855,4.281-1.279,8.28-1.279l5.708,0.855c3.808,0.76,8.516,3.042,14.134,6.851c5.614,3.806,10.229,8.754,13.846,14.843 c4.38,7.806,9.657,13.75,15.846,17.843c6.184,4.097,12.419,6.143,18.699,6.143s11.704-0.476,16.274-1.424 c4.565-0.954,8.848-2.385,12.847-4.288c1.713-12.751,6.377-22.559,13.988-29.41c-10.848-1.143-20.602-2.854-29.265-5.14 c-8.658-2.286-17.605-5.995-26.835-11.136c-9.234-5.14-16.894-11.512-22.985-19.13c-6.09-7.618-11.088-17.61-14.987-29.978 c-3.901-12.375-5.852-26.652-5.852-42.829c0-23.029,7.521-42.637,22.557-58.814c-7.044-17.32-6.379-36.732,1.997-58.242 c5.52-1.714,13.706-0.428,24.554,3.855c10.85,4.286,18.794,7.951,23.84,10.992c5.046,3.042,9.089,5.614,12.135,7.71 c17.705-4.949,35.976-7.423,54.818-7.423c18.841,0,37.115,2.474,54.821,7.423l10.849-6.852c7.426-4.57,16.18-8.757,26.269-12.562 c10.088-3.806,17.795-4.854,23.127-3.14c8.562,21.51,9.328,40.922,2.279,58.241c15.036,16.179,22.559,35.786,22.559,58.815 c0,16.18-1.951,30.505-5.852,42.969c-3.898,12.467-8.939,22.463-15.13,29.981c-6.184,7.519-13.894,13.843-23.124,18.986 c-9.232,5.137-18.178,8.853-26.84,11.132c-8.661,2.286-18.414,4.004-29.263,5.147c9.891,8.562,14.839,22.072,14.839,40.538v68.238 c0,3.237,0.472,5.852,1.424,7.851c0.958,1.998,2.478,3.374,4.571,4.141c2.102,0.76,3.949,1.235,5.571,1.424 c1.622,0.191,3.949,0.287,6.995,0.287h63.953c22.648,0,42.018-8.042,58.095-24.126c16.084-16.084,24.126-35.454,24.126-58.102 V82.225C438.533,59.576,430.491,40.204,414.41,24.123z" fill="#FFFFFF"></path><path d="M86.793,319.195c-1.331,0.948-1.141,2.471,0.572,4.565c1.906,1.902,3.427,2.189,4.57,0.855 c1.331-0.948,1.141-2.471-0.575-4.569C89.458,318.336,87.936,318.049,86.793,319.195z" fill="#FFFFFF"></path><path d="M77.374,312.057c-0.57,1.335,0.096,2.478,1.999,3.426c1.521,0.955,2.762,0.767,3.711-0.568 c0.57-1.335-0.096-2.478-1.999-3.433C79.182,310.91,77.945,311.102,77.374,312.057z" fill="#FFFFFF"></path><path d="M95.646,330.331c-1.715,0.948-1.715,2.666,0,5.137c1.713,2.478,3.328,3.142,4.853,1.998c1.714-1.334,1.714-3.142,0-5.427 C98.978,329.571,97.359,328.993,95.646,330.331z" fill="#FFFFFF"></path><path d="M105.641,343.174c-1.714,1.526-1.336,3.327,1.142,5.428c2.281,2.279,4.185,2.566,5.708,0.849 c1.524-1.519,1.143-3.326-1.142-5.42C109.068,341.751,107.164,341.463,105.641,343.174z" fill="#FFFFFF"></path></g></svg></i></a> <a href="https://www.instagram.com/xopixell" class="footer-social-link" rel="noopener" target="_blank"> <i class="icon"><svg aria-labelledby="svg-instagram-icon" focusable="false" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" version="1.1" id="instagram-icon" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 169.063 169.063" style="enable-background:new 0 0 169.063 169.063;" xml:space="preserve"><title id="svg-instagram-icon-title">Instagram Icon</title><g><path d="M122.406,0H46.654C20.929,0,0,20.93,0,46.655v75.752c0,25.726,20.929,46.655,46.654,46.655h75.752 c25.727,0,46.656-20.93,46.656-46.655V46.655C169.063,20.93,148.133,0,122.406,0z M154.063,122.407 c0,17.455-14.201,31.655-31.656,31.655H46.654C29.2,154.063,15,139.862,15,122.407V46.655C15,29.201,29.2,15,46.654,15h75.752 c17.455,0,31.656,14.201,31.656,31.655V122.407z" fill="#FFFFFF"></path><path d="M84.531,40.97c-24.021,0-43.563,19.542-43.563,43.563c0,24.02,19.542,43.561,43.563,43.561s43.563-19.541,43.563-43.561 C128.094,60.512,108.552,40.97,84.531,40.97z M84.531,113.093c-15.749,0-28.563-12.812-28.563-28.561 c0-15.75,12.813-28.563,28.563-28.563s28.563,12.813,28.563,28.563C113.094,100.281,100.28,113.093,84.531,113.093z" fill="#FFFFFF"></path><path d="M129.921,28.251c-2.89,0-5.729,1.17-7.77,3.22c-2.051,2.04-3.23,4.88-3.23,7.78c0,2.891,1.18,5.73,3.23,7.78 c2.04,2.04,4.88,3.22,7.77,3.22c2.9,0,5.73-1.18,7.78-3.22c2.05-2.05,3.22-4.89,3.22-7.78c0-2.9-1.17-5.74-3.22-7.78 C135.661,29.421,132.821,28.251,129.921,28.251z" fill="#FFFFFF"></path></g></svg></i></a> <a href="https://www.twitter.com/xopixell" class="footer-social-link" rel="noopener" target="_blank"> <i class="icon"><svg aria-labelledby="svg-twitter-icon-title" focusable="false" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" version="1.1" id="twitter-icon-svg" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px"> <title id="svg-twitter-icon-title">Twitter Icon</title><g><path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016 c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992 c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056 c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152 c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792 c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44 C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568 C480.224,136.96,497.728,118.496,512,97.248z" fill="#FFFFFF"></path></g></svg></i></a> <a href="https://www.youtube.com/xopixell" class="footer-social-link" rel="noopener" target="_blank"><i class="icon"> <svg aria-labelledby="svg-youtube-icon-title" focusable="false" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 511.626 511.627" style="enable-background:new 0 0 511.626 511.627;" xml:space="preserve"><title id="svg-youtube-icon-title">YouTube Icon</title><g><path d="M511.339,212.987c-0.186-10.277-1-23.271-2.423-38.97c-1.431-15.708-3.478-29.746-6.14-42.115 c-3.046-13.893-9.661-25.6-19.842-35.117c-10.181-9.519-22.031-15.037-35.549-16.562c-42.258-4.755-106.115-7.135-191.573-7.135 c-85.459,0-149.317,2.38-191.572,7.135c-13.516,1.524-25.319,7.043-35.404,16.562c-10.089,9.514-16.656,21.221-19.702,35.117 c-2.852,12.373-4.996,26.41-6.423,42.115c-1.425,15.699-2.235,28.688-2.424,38.97C0.094,223.265,0,237.539,0,255.813 c0,18.272,0.094,32.55,0.288,42.826c0.189,10.284,0.999,23.271,2.424,38.969c1.427,15.707,3.474,29.745,6.139,42.116 c3.046,13.897,9.659,25.602,19.842,35.115c10.185,9.517,22.036,15.036,35.548,16.56c42.255,4.76,106.109,7.139,191.572,7.139 c85.466,0,149.315-2.379,191.573-7.139c13.518-1.523,25.316-7.043,35.405-16.56c10.089-9.514,16.652-21.225,19.698-35.115 c2.854-12.371,4.996-26.409,6.427-42.116c1.423-15.697,2.231-28.691,2.423-38.969c0.191-10.276,0.287-24.554,0.287-42.826 C511.626,237.539,511.531,223.265,511.339,212.987z M356.883,271.231L210.706,362.59c-2.666,1.903-5.905,2.854-9.71,2.854 c-2.853,0-5.803-0.764-8.848-2.286c-6.28-3.422-9.419-8.754-9.419-15.985V164.454c0-7.229,3.14-12.561,9.419-15.986 c6.473-3.431,12.657-3.239,18.558,0.571l146.178,91.36c5.708,3.23,8.562,8.372,8.562,15.415 C365.446,262.854,362.591,267.998,356.883,271.231z" fill="#FFFFFF"></path></g></svg></i></a></div></div></section>    </div>
+</aside><!-- #secondary -->            <nav class="footer-legal">
+                <div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-5855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5855"><a href="https://xopixel.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-5856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5856"><a href="https://xopixel.com/disclaimer/">Disclaimer</a></li>
+<li id="menu-item-5854" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5854"><a href="https://xopixel.com/terms-of-use/">Terms of Use</a></li>
+<li id="menu-item-5853" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5853"><a href="https://xopixel.com/credits/">Credits</a></li>
+</ul></div>            </nav><!-- .footer legal menu -->
+                    <div class="site-info">
+                        <div class="colophone">
+			Copyright ©&nbsp;2018&nbsp;XO PIXEL                        </div>
+                        <div class="credit">
+                            Website by <a href="https://creative.xopixel.com/">XO PIXEL CREATIVE</a>                        </div>
+		</div><!-- .site-info -->
+            </div><!-- .footer-wrapper -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<div id="rWySEBHapkBC" class="krqUJyNcaijJ" style="background:;color:#ffffff;z-index:9999999; "></div>   <script type="text/javascript">/* <![CDATA[ */var anOptions ={"anOptionChoice":"2","anOptionStats":"1","anOptionAdsSelectors":"","anOptionCookie":"2","anOptionCookieLife":"30","anPageRedirect":"3889","anPermalink":false,"anOptionModalEffect":"fadeAndPop","anOptionModalspeed":"350","anOptionModalclose":false,"anOptionModalOverlay":"rgba( 77,77,77,0.85 )","anAlternativeActivation":false,"anAlternativeElement":"","anAlternativeText":"<p><strong>AdBlock detected!<\/strong><\/p>\n<p>Please add <a title=\"http:\/\/themeisle.com\/\" href=\"themeisle.com\" target=\"_blank\">www.themeisle.com<\/a> to your adblocking whitelist or disable your adblocking software.<\/p>\n","anAlternativeClone":"2","anAlternativeProperties":"","anOptionModalShowAfter":0,"anPageMD5":"","anSiteID":0,"modalHTML":"<div class=\"krqUJyNcaijJ-default\">\n\t<h1 style=\"color:#ffffff\">I can no longer serve my free content to users with Adblock<\/h1>\n\t<p>My content is free! But the one thing that keeps my content free is<strong>\u00a0the ads.<\/strong><\/p>\n<p>So, if you like what I'm doing and see value in it, please whitelist\u00a0<a title=\"XO PIXEL\" href=\"https:\/\/xopixel.com\" target=\"_blank\" rel=\"noopener\">xopixel.com<\/a> (or disable AdBlock altogether) to enjoy XO PIXEL like you have before!<\/p>\n<p>Thank you,<\/p>\n<p><span style=\"color: #808080;\">Marisa \u2014 Founder of XO PIXEL<\/span><\/p>\n<\/div>\n"}/* ]]> */</script><div id="adsense" class="an-sponsored" style="position:absolute; z-index:-1; height:1px; width:1px; visibility: hidden; top: -1px; left: 0;"><img class="an-advert-banner" alt="sponsored" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></div><script type="text/javascript" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/editor.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/xopixel.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/scripts_002.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"xopixel"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/comment_count.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var embedVars = {"disqusConfig":{"integration":"wordpress 3.0.16"},"disqusIdentifier":"5825 https:\/\/xopixel.com\/?p=5825","disqusShortname":"xopixel","disqusTitle":"Responsive Animated Image Grid HTML5 CSS3","disqusUrl":"https:\/\/xopixel.com\/responsive-animated-image-grid-html5-css3\/","postId":"5825"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/comment_embed.js"></script>
+<script type="text/javascript" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/prism.js"></script>
+<script type="text/javascript" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/scripts.js"></script>
+<script type="text/javascript" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/skip-link-focus-fix.js"></script>
+<script type="text/javascript" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/comment-reply.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var ajax_object = {"nonce":"6351e92e82","ajaxurl":"https:\/\/xopixel.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/rBTrJdbdJcDl.js"></script>
+<script type="text/javascript" src="Responsive%20Animated%20Image%20Grid%20HTML5%20CSS3%20%C2%BB%20XO%20PIXEL_files/wp-embed.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51705146-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<iframe style="display: none;"></iframe><div id="st-4" class=" st-sticky-share-buttons st-left st-toggleable st-has-labels st-show-total "><div class="st-total ">
+  <span class="st-label">488</span>
+  <span class="st-shares">
+    Shares
+  </span>
+</div><div class="st-btn st-first" data-network="facebook" style="display: inline-block;">
+  <svg fill="#fff" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40">
+  <g>
+    <path d="m21.7 16.7h5v5h-5v11.6h-5v-11.6h-5v-5h5v-2.1c0-2 0.6-4.5 1.8-5.9 1.3-1.3 2.8-2 4.7-2h3.5v5h-3.5c-0.9 0-1.5 0.6-1.5 1.5v3.5z"></path>
+  </g>
+</svg>
+  <span class="st-label">Share</span>
+</div><div class="st-btn" data-network="twitter" style="display: inline-block;">
+  <svg fill="#fff" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40">
+  <g>
+    <path d="m31.5 11.7c1.3-0.8 2.2-2 2.7-3.4-1.4 0.7-2.7 1.2-4 1.4-1.1-1.2-2.6-1.9-4.4-1.9-1.7 0-3.2 0.6-4.4 1.8-1.2 1.2-1.8 2.7-1.8 4.4 0 0.5 0.1 0.9 0.2 1.3-5.1-0.1-9.4-2.3-12.7-6.4-0.6 1-0.9 2.1-0.9 3.1 0 2.2 1 3.9 2.8 5.2-1.1-0.1-2-0.4-2.8-0.8 0 1.5 0.5 2.8 1.4 4 0.9 1.1 2.1 1.8 3.5 2.1-0.5 0.1-1 0.2-1.6 0.2-0.5 0-0.9 0-1.1-0.1 0.4 1.2 1.1 2.3 2.1 3 1.1 0.8 2.3 1.2 3.6 1.3-2.2 1.7-4.7 2.6-7.6 2.6-0.7 0-1.2 0-1.5-0.1 2.8 1.9 6 2.8 9.5 2.8 3.5 0 6.7-0.9 9.4-2.7 2.8-1.8 4.8-4.1 6.1-6.7 1.3-2.6 1.9-5.3 1.9-8.1v-0.8c1.3-0.9 2.3-2 3.1-3.2-1.1 0.5-2.3 0.8-3.5 1z"></path>
+  </g>
+</svg>
+  <span class="st-label">Tweet</span>
+</div><div class="st-btn" data-network="pinterest" style="display: inline-block;">
+  <svg fill="#fff" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40">
+  <g>
+    <path d="m37.3 20q0 4.7-2.3 8.6t-6.3 6.2-8.6 2.3q-2.4 0-4.8-0.7 1.3-2 1.7-3.6 0.2-0.8 1.2-4.7 0.5 0.8 1.7 1.5t2.5 0.6q2.7 0 4.8-1.5t3.3-4.2 1.2-6.1q0-2.5-1.4-4.7t-3.8-3.7-5.7-1.4q-2.4 0-4.4 0.7t-3.4 1.7-2.5 2.4-1.5 2.9-0.4 3q0 2.4 0.8 4.1t2.7 2.5q0.6 0.3 0.8-0.5 0.1-0.1 0.2-0.6t0.2-0.7q0.1-0.5-0.3-1-1.1-1.3-1.1-3.3 0-3.4 2.3-5.8t6.1-2.5q3.4 0 5.3 1.9t1.9 4.7q0 3.8-1.6 6.5t-3.9 2.6q-1.3 0-2.2-0.9t-0.5-2.4q0.2-0.8 0.6-2.1t0.7-2.3 0.2-1.6q0-1.2-0.6-1.9t-1.7-0.7q-1.4 0-2.3 1.2t-1 3.2q0 1.6 0.6 2.7l-2.2 9.4q-0.4 1.5-0.3 3.9-4.6-2-7.5-6.3t-2.8-9.4q0-4.7 2.3-8.6t6.2-6.2 8.6-2.3 8.6 2.3 6.3 6.2 2.3 8.6z"></path>
+  </g>
+</svg>
+  <span class="st-label">Pin</span>
+</div><div class="st-btn" data-network="email" style="display: inline-block;">
+  <svg fill="#fff" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40">
+  <g>
+    <path d="m33.4 13.4v-3.4l-13.4 8.4-13.4-8.4v3.4l13.4 8.2z m0-6.8q1.3 0 2.3 1.1t0.9 2.3v20q0 1.3-0.9 2.3t-2.3 1.1h-26.8q-1.3 0-2.3-1.1t-0.9-2.3v-20q0-1.3 0.9-2.3t2.3-1.1h26.8z"></path>
+  </g>
+</svg>
+  <span class="st-label">Email</span>
+</div><div class="st-btn st-last" data-network="sharethis" style="display: inline-block;">
+  <svg fill="#fff" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40">
+  <g>
+    <path d="m30 26.8c2.7 0 4.8 2.2 4.8 4.8s-2.1 5-4.8 5-4.8-2.3-4.8-5c0-0.3 0-0.7 0-1.1l-11.8-6.8c-0.9 0.8-2.1 1.3-3.4 1.3-2.7 0-5-2.3-5-5s2.3-5 5-5c1.3 0 2.5 0.5 3.4 1.3l11.8-6.8c-0.1-0.4-0.2-0.8-0.2-1.1 0-2.8 2.3-5 5-5s5 2.2 5 5-2.3 5-5 5c-1.3 0-2.5-0.6-3.4-1.4l-11.8 6.8c0.1 0.4 0.2 0.8 0.2 1.2s-0.1 0.8-0.2 1.2l11.9 6.8c0.9-0.7 2.1-1.2 3.3-1.2z"></path>
+  </g>
+</svg>
+  <span class="st-label">Share</span>
+</div><div class="st-toggle">
+  <div class="st-left">
+    <svg fill="#fff" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40">
+  <g>
+    <path d="m22 30.7q0 0.3-0.2 0.5l-1.1 1.1q-0.3 0.3-0.6 0.3t-0.5-0.3l-10.4-10.4q-0.2-0.2-0.2-0.5t0.2-0.5l10.4-10.4q0.3-0.2 0.5-0.2t0.6 0.2l1.1 1.1q0.2 0.3 0.2 0.5t-0.2 0.6l-8.8 8.7 8.8 8.8q0.2 0.2 0.2 0.5z m8.6 0q0 0.3-0.3 0.5l-1.1 1.1q-0.2 0.3-0.5 0.3t-0.5-0.3l-10.4-10.4q-0.2-0.2-0.2-0.5t0.2-0.5l10.4-10.4q0.2-0.2 0.5-0.2t0.5 0.2l1.1 1.1q0.3 0.3 0.3 0.5t-0.3 0.6l-8.7 8.7 8.7 8.8q0.3 0.2 0.3 0.5z"></path>
+  </g>
+</svg>
+  </div>
+  <div class="st-right">
+    <svg fill="#fff" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40">
+  <g>
+    <path d="m22.3 21.4q0 0.3-0.2 0.5l-10.4 10.4q-0.3 0.3-0.6 0.3t-0.5-0.3l-1.1-1.1q-0.2-0.2-0.2-0.5t0.2-0.5l8.8-8.8-8.8-8.7q-0.2-0.3-0.2-0.6t0.2-0.5l1.1-1.1q0.3-0.2 0.5-0.2t0.6 0.2l10.4 10.4q0.2 0.2 0.2 0.5z m8.6 0q0 0.3-0.3 0.5l-10.4 10.4q-0.2 0.3-0.5 0.3t-0.5-0.3l-1.1-1.1q-0.2-0.2-0.2-0.5t0.2-0.5l8.8-8.8-8.8-8.7q-0.2-0.3-0.2-0.6t0.2-0.5l1.1-1.1q0.2-0.2 0.5-0.2t0.5 0.2l10.4 10.4q0.3 0.2 0.3 0.5z"></path>
+  </g>
+</svg>
+  </div>
+</div></div></body></html>
